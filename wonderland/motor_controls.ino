@@ -1,9 +1,9 @@
 void zeroX() {
-  move(LEFT, xFullRot);
+  move(LEFT, xFullRot * 1.5);
 }
 
 void zeroY() {
-  move(DOWN, yFullRot);
+  move(DOWN, yFullRot * 1.5);
 }
 
 
@@ -90,7 +90,7 @@ void moveTo(Vec2 point) {
   buzz(127);
   light(topLight, 255);
   light(ledStrip, 255);
-  delay(100);
+  delay(10);
   buzz(0);
   light(topLight, 0);
   light(ledStrip, 0);

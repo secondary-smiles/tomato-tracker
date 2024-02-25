@@ -14,8 +14,8 @@ int yUp = 9;
 int xLeft = 6;
 int xRight = 7;
 
-int yFullRot = 900;  // ms for one rotation
-int xFullRot = 1200;
+int yFullRot = 400;  // ms for one rotation
+int xFullRot = 850;
 
 int yMaxDeg = 100;
 int xMaxDeg = 100;
@@ -39,6 +39,19 @@ void setup() {
 
   zeroX();
   zeroY();
+
+  // Vec2 point;
+  // point.x = 100;
+  // point.y = 100;
+  // moveTo(point);
+
+  // point.x = 50;
+  // point.y = 50;
+  // moveTo(point);
+
+  // point.x = 0;
+  // point.y = 0;
+  // moveTo(point);
 
   Serial.begin(9600);
 }

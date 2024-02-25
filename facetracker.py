@@ -2,7 +2,7 @@ import cv2
 import serial
 from time import sleep
 
-ser = serial.Serial(port='/dev/cu.usbmodem1101', baudrate=9600, timeout=3)
+ser = serial.Serial(port='/dev/cu.usbmodem1201', baudrate=9600, timeout=3)
 sleep(3)
 
 # Load the cascade
